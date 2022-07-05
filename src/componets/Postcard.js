@@ -1,10 +1,11 @@
 import {
+   
     Button,
     Flex,
     Heading,
     Image,
     Stack,
-    
+   
     VStack,
   } from "@chakra-ui/react";
   import React from "react";
@@ -14,17 +15,17 @@ import {
     return (
       <Flex justify="center" align="center">
         <Stack width="320px" boxShadow="md" borderRadius="xl">
-
-        <Image src="https://img.freepik.com/free-vector/realistic-coffee-background-with-drawings_79603-607.jpg?t=st=1656983798~exp=1656984398~hmac=ae8a840cb32f8602e5376dc9128cabefb354b1f5ac96e28fb3b303ee4eee5d3c&w=900" alt="" />
+          <Image src="https://img.freepik.com/free-photo/coffee-beans-with-props-making-coffee_1220-4536.jpg?t=st=1657036199~exp=1657036799~hmac=03b5f2e924a0703924432572a145adc8099798b441e86463e7168445ed3f8969&w=900" alt="image" />
           <Stack p="2">
-          
-            <VStack align="flex-start">
-              <Heading fontSize="lg">RozeCaffe</Heading>
            
-            
+            <VStack align="flex-start">
+              <Heading fontSize="lg">CaffeRoz</Heading>
+          
               <Button alignSelf="flex-end" size="sm" as={Link} to="/post">
+                
                 View Post
               </Button>
+             
             </VStack>
           </Stack>
         </Stack>
