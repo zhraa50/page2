@@ -20,6 +20,7 @@ const CartPage = () => {
           }}
 
         >
+          
      
           <Cart />
         </Flex>

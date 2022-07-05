@@ -1,7 +1,6 @@
 import { Container, Grid } from "@chakra-ui/react";
 import React from "react";
-import PostCard from "./componets/Caffecart";
-
+import PostCard from "./componets/Postcard";
 const Home = () => {
   return (
     <>
@@ -12,7 +11,8 @@ const Home = () => {
           gridTemplateColumns="repeat(auto-fit,minmax(320px,1fr))"
         >
           
-<PostCard/>          
+<PostCard/> 
+         
         
         </Grid>
       </Container>

@@ -5,7 +5,7 @@ import Home from "./Home";
 import CartPage from "./pages/Cartbages";
 import NavBar from "./componets/Navigation/NavBar";
 import PostPage from "./pages/Postbage";
-import Roomcart from './componets/Roomcart'
+import RoomPages from "./pages/RoomPages";
 function App() {
   return (
     <Router>
@@ -14,7 +14,7 @@ function App() {
         <Route path="/" index element={<Home />} />
         <Route path="/post" element={<PostPage />} />
         <Route path="/cart" element={<CartPage />} />
-        <Route path="/room" element={<Roomcart />} />
+        <Route path="/room" element={<RoomPages />} />
 
 
 
